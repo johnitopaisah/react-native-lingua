@@ -183,6 +183,11 @@ Replace the placeholder values with your real credentials. You can get these by 
 npx expo start
 ```
 
+**Deploying the backend**
+
+The API routes and the AI teacher (vision agent) run on Kubernetes with ArgoCD.
+See [k8s/README.md](k8s/README.md).
+
 ## <a name="links">🔗 Assets</a>
 
 Assets and snippets used in the project can be found in the **[video kit](https://jsmastery.com/video-kit/042a469c-66fb-4922-9648-cbb1ca62d32e)**.
